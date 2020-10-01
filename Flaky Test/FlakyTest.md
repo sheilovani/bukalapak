@@ -8,6 +8,6 @@ Answer :
 1. A flaky test is a test which could fail or pass for the same configuration without any code changes.
 2. Using async await in automation code.
 3. For reCAPTCHA v3, create a separate key for testing environments.
-   For reCAPTCHA v2, use the following test keys.
-      Site key: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
-      Secret key: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
+   For reCAPTCHA v2, use the following test keys:
+      a. Site key: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
+      b. Secret key: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
