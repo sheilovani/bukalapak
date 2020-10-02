@@ -3,11 +3,11 @@ const env = require('dotenv').config();
 
 const api = supertest(process.env.TEST_URL);
 
-const get = (userId, id, title, string) => api.get('')
+const post = (body) => api.post('')
  .set('Content-Type', 'application/json')
  .set('Accept', 'application/json')
- .query(userId, id, title, string);
+ .send(body);
 
 module.exports = {
-   get,
+   post,
 }
