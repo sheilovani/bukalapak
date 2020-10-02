@@ -8,7 +8,7 @@ const mocha = require('mocha');
 chai.use(require('chai-json-schema'));
 
 const responseMessageCode = require('./../helper/response_message.json');
-const page = require('./../page/get.js');
+const page = require('../page/get.js');
 const jsonSchema = require('./../helper/schema.json');
 
 
