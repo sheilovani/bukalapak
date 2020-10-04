@@ -4,7 +4,7 @@
   "description": "POC API Testing Framework with Mocha and Chai",
   "main": "index.js",
   "scripts": {
-    "test-api": "./node_modules/mocha/bin/mocha automation --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 60000",
+    "test-api": "./node_modules/mocha/bin/mocha automation-web-api --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/ --timeout 60000",
     "reports": "open 'reports/mochawesome/mochawesome.html'"
   },
   "author": "Sheila Yovani",
@@ -12,6 +12,7 @@
     "chai": "^4.1.2",
     "chai-json-schema": "^1.5.1",
     "dotenv": "^7.0.0",
+    "form-data": "^3.0.0",
     "mocha": "^5.2.0",
     "mochawesome": "^3.0.2"
   },
