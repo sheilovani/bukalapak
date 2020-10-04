@@ -34,7 +34,7 @@ User login Bukalapak successfully
 
 * Test Cases *
 User wants to login to Bukalapak website
-    Gven Open Landing page
+    Given Open Landing page
     When Click button login on Landing page
     And User view Login page
     And Input username
