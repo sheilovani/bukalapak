@@ -2,6 +2,7 @@ Installation
 - pip3 install -r requirements.txt
 
 Configuration
-in Open Application change the value:
+Make sure the value on the following list are correct in the Open the App keyword 
 - deviceName
+- platformName
 - app
