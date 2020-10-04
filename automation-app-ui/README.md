@@ -6,3 +6,9 @@ Make sure the value on the following list are correct in the Open the App keywor
 - deviceName
 - platformName
 - app
+
+Register the account first on the app before run with following list :
+- Name : Sheila
+- Email : sheilayovani@gmail.com
+- Password  : sheila123
+- Confirm Password : sheila123
