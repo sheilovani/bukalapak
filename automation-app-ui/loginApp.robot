@@ -15,7 +15,7 @@ ${errorMessageInvalidPassword}             xpath=//android.widget.TextView[@text
 *** Keywords ***
 
 Open the App
-    Open Application                       http://localhost:4723/wd/hub      platformName=Android      deviceName=emulator-5554            	app=LoginTest_v4.0.com.apk     noReset=true
+    Open Application                       http://localhost:4723/wd/hub      platformName=Android      deviceName=emulator-5554            	app=C:\\Users\\siomi\\Downloads\\app.apk       noReset=true
 
 User On Login Screen
     Wait Until Page Contains Element        ${buttonLogin} 
