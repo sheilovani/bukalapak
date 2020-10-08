@@ -12,3 +12,6 @@ Register the account first on the app before run with following list :
 - Email : sheilayovani@gmail.com
 - Password  : sheila123
 - Confirm Password : sheila123
+
+Run
+- robot -d report automation-app-ui
